@@ -35,4 +35,9 @@ jobs:
       uses: actions/upload-artifact@v4.6.2
       with:
         path: target/*.jar
-        
+
+    - name: jacoco-reporter
+      uses: PavanMudigonda/jacoco-reporter@v5.0
+      with:
+        coverage_results_path: normal
+      
