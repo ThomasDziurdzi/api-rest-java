@@ -36,8 +36,8 @@ jobs:
       with:
         path: target/*.jar
 
-    - name: jacoco-reporter
-      uses: PavanMudigonda/jacoco-reporter@v5.0
+    - name: Generate JaCoCo Badge
+      uses: cicirello/jacoco-badge-generator@v2.12.1
       with:
-        coverage_results_path: normal
+        jacoco-csv-file: build/reports/jacoco/test/jacocoTestReport.csv
       
