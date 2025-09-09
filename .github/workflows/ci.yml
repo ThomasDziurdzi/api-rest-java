@@ -85,4 +85,4 @@ jobs:
         with: 
           context: .
           push: true
-          tags: ThomasDziurdzi/api-rest-java:latest
+          tags: thomasdziurdzi/api-rest-java:latest
